@@ -1,64 +1,115 @@
-{ 
-  "hotels": [
-    {
-      name: "Motto by Hilton New York City Chelsea",
-      description: "Prime location near parks and city attractions. Offers compact NYC-style rooms, bikes for exploring, and excellent service. Features beautiful design, spacious second-floor lounge, and a landmark view.",
-      imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d3/d1/a6/exterior.jpg?w=300&h=300&s=1",
-      amenities: ['free_parking', 'gym', 'bar', 'free_wifi'],
-    },
-    {
-      name: "Moxy NYC Times Square",
-      description: "Centrally located hotel with creatively designed, functional rooms. Offers a fun, upbeat atmosphere with modern décor. Features include a trendy rooftop bar with stunning city views, a coffee shop, and restaurant. Ideal for short stays.",
-      imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/7d/23/7d/20191004-082317-largejpg.jpg?w=300&h=300&s=1",
-      amenities: ['free_wifi', 'bar', 'non_smoking', 'pets_allowed'],
-    },
-    {
-      name: "The Dominick Hotel",
-      description: "The Dominick Hotel garners acclaim for its pristine cleanliness and luxurious atmosphere, with guests often highlighting the comfortable and modern elegance of the property. Its prime SoHO location is consistently celebrated for its convenience, and the amenities, including spacious rooms with breathtaking views, contribute to a memorable stay.",
-      imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9d/a8/28/trump-soho-new-york.jpg?w=300&h=300&s=1",
-      amenities: ['pool', 'bar', 'pets_allowed', 'airport_transportation'],
-    },
-    {
-      name: "The Evelyn Hotel",
-      description: "The Evelyn Hotel garners high praise for its impeccable service, with guests often highlighting the staff's friendliness and efficiency. Its prime location is also a standout feature, affording easy access to attractions and public transportation.",
-      imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/60/c1/76/the-tusk-bar.jpg?w=300&h=300&s=1",
-      amenities: ['free_wifi', 'breakfast_included', 'gym', 'laundry'],
-    },
-    {
-      name: "Best Western Plus Soho Hotel",
-      description: "Nestled in a prime spot, the Best Western Plus Soho Hotel comes highly recommended for its easy access to nearby neighborhoods and transit options. The hotel's cleanliness earns regular praise, with guests impressed by the immaculate conditions from the rooms to the breakfast area. While the rooms are modern and cozy with comfortable beds, reviewers have called out their compact size and occasional noise.",
-      imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/b6/21/45/suite.jpg?w=300&h=300&s=1",
-      amenities: ['breakfast_included', 'pets_allowed', 'gym', 'laundry'],
-    },
-    {
-      name: "The Maritime Hotel",
-      description: "The Maritime Hotel garners praise for its impeccably clean and well-designed rooms, with many guests appreciating the luxurious bathrooms and the tranquility provided by effective noise insulation. While the rooms are noted to be on the smaller side, the hotel's prime location near Chelsea Market and easy subway access is a highlight for travelers.",
-      imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/37/ad/8c/rooftop-penthouse--v15606534.jpg?w=300&h=300&s=1",
-      amenities: ['gym', 'free_wifi', 'breakfast_included', 'bar'],
-    },
-    {
-      name: "Margaritaville Resort Times Square",
-      description: "The Margaritaville Resort Times Square garners appreciation for its welcoming staff and immaculate cleanliness, with many travelers commending the attentive service and spotless rooms. Nestled in the heart of Times Square, the hotel's location is celebrated for its easy access to nearby attractions, though some guests mention it can be bustling. While the rooms are praised for their cleanliness and decor, their size and occasional maintenance issues, such as door gaps and air conditioning problems, are noted by guests.",
-      imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/38/de/a8/ground-floor-lobby.jpg?w=300&h=300&s=1",
-      amenities: ['pool', 'gym', 'pets_allowed', 'bar', 'restaurant', 'concierge'],
-    },
-    {
-      name: "Equinox Hotel New York",
-      description: "Nestled in a prime location, the Equinox Hotel New York garners praise for its tranquil atmosphere and luxurious design, with spectacular views that captivate many guests. While some find the hotel's pricing steep, the high-end amenities, including a state-of-the-art gym and spa, contribute to its appeal.",
-      imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/07/32/ee/equinox-hotel-new-york.jpg?w=300&h=300&s=1",
-      amenities: ['gym', 'pool', 'bar', 'restaurant', 'free_wifi'],
-    },
-    {
-      name: "Pod 51 Hotel",
-      description: "Pod 51 is the most affordable hotel in NYC, with a focus on style and comfort. We offer room types for every budget and preference. Free week day walking tours and WiFi. Kick back and relax in our lobby, grab a bite to eat at our cafe, or soak up the city in our beautiful rooftop garden.",
-      imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/85/b2/3d/pod-51-hotel.jpg?w=300&h=300&s=1",
-      amenities: ['pets_allowed', 'concierge', 'free_wifi'],
-    }
-    {
-      name: "The Moore",
-      description: "The Moore, a casually elegant new hotel in the heart of Chelsea. Providing guests with exactly what they need for a comfortable night’s sleep and nothing more. Designed with simple touches of elegance with wood tones and rich colors throughout the spaces and guest rooms. Featuring a gym fully equipped with Technogym high quality equipment, alongside with Moore Wine, rooftop Wine Bar and Café Moore offering assortment of beverages and pastries.",
-      imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/52/67/d9/the-moore.jpg?w=300&h=300&s=1",
-      amenities: ['bar', 'concierge', 'free_wifi'],
-    }
-  ]
+{
+    "hotels": [
+        {
+            "name": "Motto by Hilton New York City Chelsea",
+            "description": "Prime location near parks and city attractions. Offers compact NYC-style rooms, bikes for exploring, and excellent service. Features beautiful design, spacious second-floor lounge, and a landmark view.",
+            "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d3/d1/a6/exterior.jpg?w=300&h=300&s=1",
+            "amenities": [
+                "free_parking",
+                "gym",
+                "bar",
+                "free_wifi"
+            ]
+        },
+        {
+            "name": "Moxy NYC Times Square",
+            "description": "Centrally located hotel with creatively designed, functional rooms. Offers a fun, upbeat atmosphere with modern décor. Features include a trendy rooftop bar with stunning city views, a coffee shop, and restaurant. Ideal for short stays.",
+            "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/7d/23/7d/20191004-082317-largejpg.jpg?w=300&h=300&s=1",
+            "amenities": [
+                "free_wifi",
+                "bar",
+                "non_smoking",
+                "pets_allowed"
+            ]
+        },
+        {
+            "name": "The Dominick Hotel",
+            "description": "The Dominick Hotel garners acclaim for its pristine cleanliness and luxurious atmosphere, with guests often highlighting the comfortable and modern elegance of the property. Its prime SoHO location is consistently celebrated for its convenience, and the amenities, including spacious rooms with breathtaking views, contribute to a memorable stay.",
+            "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9d/a8/28/trump-soho-new-york.jpg?w=300&h=300&s=1",
+            "amenities": [
+                "pool",
+                "bar",
+                "pets_allowed",
+                "airport_transportation"
+            ]
+        },
+        {
+            "name": "The Evelyn Hotel",
+            "description": "The Evelyn Hotel garners high praise for its impeccable service, with guests often highlighting the staff's friendliness and efficiency. Its prime location is also a standout feature, affording easy access to attractions and public transportation.",
+            "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/60/c1/76/the-tusk-bar.jpg?w=300&h=300&s=1",
+            "amenities": [
+                "free_wifi",
+                "breakfast_included",
+                "gym",
+                "laundry"
+            ]
+        },
+        {
+            "name": "Best Western Plus Soho Hotel",
+            "description": "Nestled in a prime spot, the Best Western Plus Soho Hotel comes highly recommended for its easy access to nearby neighborhoods and transit options. The hotel's cleanliness earns regular praise, with guests impressed by the immaculate conditions from the rooms to the breakfast area. While the rooms are modern and cozy with comfortable beds, reviewers have called out their compact size and occasional noise.",
+            "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/b6/21/45/suite.jpg?w=300&h=300&s=1",
+            "amenities": [
+                "breakfast_included",
+                "pets_allowed",
+                "gym",
+                "laundry"
+            ]
+        },
+        {
+            "name": "The Maritime Hotel",
+            "description": "The Maritime Hotel garners praise for its impeccably clean and well-designed rooms, with many guests appreciating the luxurious bathrooms and the tranquility provided by effective noise insulation. While the rooms are noted to be on the smaller side, the hotel's prime location near Chelsea Market and easy subway access is a highlight for travelers.",
+            "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/37/ad/8c/rooftop-penthouse--v15606534.jpg?w=300&h=300&s=1",
+            "amenities": [
+                "gym",
+                "free_wifi",
+                "breakfast_included",
+                "bar"
+            ]
+        },
+        {
+            "name": "Margaritaville Resort Times Square",
+            "description": "The Margaritaville Resort Times Square garners appreciation for its welcoming staff and immaculate cleanliness, with many travelers commending the attentive service and spotless rooms. Nestled in the heart of Times Square, the hotel's location is celebrated for its easy access to nearby attractions, though some guests mention it can be bustling. While the rooms are praised for their cleanliness and decor, their size and occasional maintenance issues, such as door gaps and air conditioning problems, are noted by guests.",
+            "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/38/de/a8/ground-floor-lobby.jpg?w=300&h=300&s=1",
+            "amenities": [
+                "pool",
+                "gym",
+                "pets_allowed",
+                "bar",
+                "restaurant",
+                "concierge"
+            ]
+        },
+        {
+            "name": "Equinox Hotel New York",
+            "description": "Nestled in a prime location, the Equinox Hotel New York garners praise for its tranquil atmosphere and luxurious design, with spectacular views that captivate many guests. While some find the hotel's pricing steep, the high-end amenities, including a state-of-the-art gym and spa, contribute to its appeal.",
+            "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/07/32/ee/equinox-hotel-new-york.jpg?w=300&h=300&s=1",
+            "amenities": [
+                "gym",
+                "pool",
+                "bar",
+                "restaurant",
+                "free_wifi"
+            ]
+        },
+        {
+            "name": "Pod 51 Hotel",
+            "description": "Pod 51 is the most affordable hotel in NYC, with a focus on style and comfort. We offer room types for every budget and preference. Free week day walking tours and WiFi. Kick back and relax in our lobby, grab a bite to eat at our cafe, or soak up the city in our beautiful rooftop garden.",
+            "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/85/b2/3d/pod-51-hotel.jpg?w=300&h=300&s=1",
+            "amenities": [
+                "pets_allowed",
+                "concierge",
+                "free_wifi"
+            ]
+        },
+        {
+            "name": "The Moore",
+            "description": "The Moore, a casually elegant new hotel in the heart of Chelsea. Providing guests with exactly what they need for a comfortable night’s sleep and nothing more. Designed with simple touches of elegance with wood tones and rich colors throughout the spaces and guest rooms. Featuring a gym fully equipped with Technogym high quality equipment, alongside with Moore Wine, rooftop Wine Bar and Café Moore offering assortment of beverages and pastries.",
+            "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/52/67/d9/the-moore.jpg?w=300&h=300&s=1",
+            "amenities": [
+                "bar",
+                "concierge",
+                "free_wifi"
+            ]
+        }
+    ]
 }
